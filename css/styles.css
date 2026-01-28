@@ -214,9 +214,28 @@ a {
 .list-feature {
   display: flex;
   gap: 24px;
+  padding-bottom: 120px;
   border: none;
   width: calc((100%-72px)/4);
 }
+
+.item-feature-icons {
+  width: 264px;
+  height: 112px;
+  border: 1px solid #8e8f99;
+  gap: 24px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+}
+
+.icon-feature {
+  fill: #2e2f42;
+}
+
 
 .feature-title {
   margin-bottom: 8px;
@@ -286,6 +305,38 @@ a {
 .team-list-foto {
   display: block;
   max-width: 100%;
+}
+
+.container-icons-team {
+  width: 232px;
+  height: 40px;
+  margin: 8px 16px 32px 16px ;
+
+}
+ 
+  
+.icons-teams {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.item-icons {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  width: 40px;
+ height: 40px;
+ display: flex;
+ background-color: #4D5AE5;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+ fill: #f4f4fd;
+}
+
+
+.icon-name {
 }
 
 /* section portfolio */
