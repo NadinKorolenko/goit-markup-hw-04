@@ -104,9 +104,6 @@ a {
   height: 4px;
   background-color: #404bbf;
 
-
-
-
 }
 
 .contacts {
@@ -247,7 +244,6 @@ a {
 .list-feature {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
   border: none;
   width: calc((100%-72px)/4);
 }
@@ -372,6 +368,8 @@ a {
  border-radius: 50%;
  fill: #f4f4fd;
  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .item-icons:hover,
@@ -409,6 +407,11 @@ a {
   width: 360px;
  height: 420px;
  background: #fff;
+ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-list-item:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .sensation-overlay-img {
@@ -423,9 +426,7 @@ a {
 }
 
 .sensation-item-overlay {
-  padding-top: 40px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 40px 32px;
   background: #4d5ae5;
   position: absolute;
   top: 0;
@@ -436,8 +437,7 @@ a {
   
   transform: translateY(100%);
   overflow: auto;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
 
 }
 
@@ -494,6 +494,7 @@ a {
 .container-footer {
   display: flex;
   gap: 120px;
+  align-items: baseline;
 }
 
 .page-footer {
@@ -546,6 +547,7 @@ a {
  border-radius: 50%;
  fill: #f4f4fd;
  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item-icons-footer:hover,
